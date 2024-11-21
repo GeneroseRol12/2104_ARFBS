@@ -153,7 +153,7 @@ public class login extends javax.swing.JFrame {
     
     if (rs.next()) {
         JOptionPane.showMessageDialog(rootPane, "Your login was successful.");
-        new tenantdashboard().setVisible(true);
+        new TenantDash().setVisible(true);
     } else {
         JOptionPane.showMessageDialog(rootPane, "Your login failed.");
     }
